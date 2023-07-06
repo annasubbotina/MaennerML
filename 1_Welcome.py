@@ -7,7 +7,7 @@ import seaborn as sns
 import time
 import numpy as np
 import streamlit as st
-from streamlit_folium import st_folium
+#from streamlit_folium import st_folium
 import plotly.express as px
 import torch
 from PIL import Image
@@ -16,8 +16,6 @@ import requests
 
 model_tree = 'E:\Download\Studium\ML4B\ML4B_Maenner_MoveMate\MaennerML\Tree_Model.pkl'
 model = torch.load(model_tree)
-
-@st.cache_data
 
 #Functions 
 
